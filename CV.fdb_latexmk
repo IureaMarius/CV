@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1591905233 "CV.tex" "CV.pdf" "CV" 1591905234
+["pdflatex"] 1591980044 "CV.tex" "CV.pdf" "CV" 1591980045
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
@@ -48,11 +48,11 @@
   "C:/Users/User/AppData/Roaming/MiKTeX/2.9/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1575571282 9715 b051d5b493d9fe5f4bc251462d039e5f ""
   "C:/Users/User/AppData/Roaming/MiKTeX/2.9/tex/latex/titlesec/titlesec.sty" 1571243658 48596 2b6a95da931c07a430b1a61904aaa42d ""
   "C:/Users/User/AppData/Roaming/MiKTeX/2.9/tex/latex/titling/titling.sty" 1252048308 7358 95ac619994bd30d405a74f3eca431c84 ""
-  "CV.aux" 1591905234 3440 010bb2da7afc372178e07a123ee27b0f "pdflatex"
-  "CV.out" 1591905234 1523 c1af3247b70f46df3293fbe7fd1f6ab2 "pdflatex"
-  "CV.tex" 1591904936 7574 ed5fe85699c7c7da38627161435d6de7 ""
+  "CV.aux" 1591980044 3443 15e621abee0b8302589f4ba9d006b744 "pdflatex"
+  "CV.out" 1591980044 1526 bc913690785ff36b6cb272b5aee7bcdb "pdflatex"
+  "CV.tex" 1591980043 7582 ae74a44b7c4a462442fd6bbef947bd07 ""
   (generated)
+  "CV.log"
+  "CV.out"
   "CV.aux"
   "CV.pdf"
-  "CV.out"
-  "CV.log"
