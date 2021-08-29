@@ -62,14 +62,49 @@ challenges. I am a fast learner and able to adapt to different work environments
 
 \section{Technical Skills}
 \subsection{Languages}
-JavaScript, C, C++, C\#, Python, HTML
+C\#, JavaScript, C, C++, Python
 \subsection{Frameworks/Libraries}
-Node.js, Express.js, ASP.NET, JQuery, Django
+ASP.NET, Node.js, Express.js, JQuery, Django
 \subsection{Tools}
-Git, Unity, Visual Studio, Vim, Nuget, NPM, ESLint
+Git, Unity, Visual Studio, Vim, Nuget, NPM
 
 \section{Experience}
-\subsection{Bitdefender} 01/06/2020 $\rightarrow$ current
+\subsection{IOmundo} 01/10/2020 $\rightarrow$ current
+\subsection{Job Title:} Junior Software Engineer
+\subsubsection{Project Overview:}
+Mostly worked on developing an integrated booking engine using Angular, to be embeded in our client's websites. Worked on fixing issues, adding features, and improving our web services
+\subsubsection{Tech Stack:} C\#, Angular
+\subsubsection{Responsibilities:}
+-learned Angular over the course of 2 weeks while discussing the project requirements
+
+-created a bridge to convert our existing XML based API into a JSON based API
+
+-added endpoints to expose our backend Umbraco CMS
+
+-changed the caching to include a new type of 0 availability services
+
+-fixed various bugs in our backend
+
+-added internationalization support
+
+-optimized the front end rendering of search results by adding virtual scrolling
+
+-found an issue in our content retrieval Umbraco controller that caused a big part of the content stored in Umbraco to be retrieved from the database, instead of the more efficient XML cache. After adding an Lucene search index, and making sure all of the calls tried to hit the cache before going to the database, reduced the load time of an average search that retrieved 200 services from about 90 seconds to less than 8 seconds.
+
+-integrated the DIBSpayment Easy API to our booking engine, in the angular application and in the backend ERP product
+
+-added automatic image resizing and watermarking of uploaded images to our Umbraco CMS
+
+-helped create and run various exports from our client's old system to our CMS
+
+-fixed a bug that caused a change in hue of our resized images
+
+-had various calls with our client, talking about requirements, managing expectations, and deciding on the final UX.
+
+-in another project, worked on a web scraper that kept the data from our client's platform in sync with ours
+
+
+\subsection{Bitdefender} 01/06/2020 $\rightarrow$ 01/10/2020
 \subsection{Job Title:} Junior Software Engineer
 \subsection{Department:} Cyber Threat Intelligence Lab
 \subsubsection{Project Overview:}
@@ -92,105 +127,12 @@ The application is an internally used tool that deals with the analysis of logs 
 
 -implemented automatic detection of log file type and OS
 
-\section{Projects}
-\subsection{RedditFeud}
-Webapp built using Django, hosted on AWS \href{https:\\www.redditfeud.com}{(Link)}
-\subsubsection{Motivation:}
-As an avid user of Reddit, I wanted to write a webapp that would interface with the python Reddit API and
-since python seemed like an easy to use language I decided to learn Django. Another important part of this
-project that I tried to give special attention was going through the process of buying a domain and hosting
-because I had no prior experience doing it.
-
-\subsubsection{Summary:}
-This webapp queries the python Reddit API and stores the most popular posts and comments submitted today 
-in an SQLite database, then when a user requests a quiz it pulls 10 randomly chosen questions from the
-database and uses the template engine to create the webpage.
-\subsubsection{Skills Acquired:}
-
--The ability to plan out a bigger project and go through the steps required to turn an idea into a user faced
-product.
-
--Understanding of how a web framework deals with receiving, parsing and responding to HTTP requests using
-the MVC design pattern.
-
--Knowledge of how to use an API to gather and serialize data in order to more easily retrieve it
-when it is requested by the user. Also got experience in finding my way through documentation.
-
--Processing of JSON files was a key part since the API had a pretty restrictive rate limiter I had to use a
-third party API which compiled and archived bigger chunks of posts and comments.
-
--Experience using a template engine to dynamically fill out webpages.
-
--Ability to use CSS Grid to resize and scale the content of the webpage for different devices, JQuery was used
-for user interaction.
-
--Basic storage of posts and comments in an SQLite database to make adding them to the templates easier.
-
--Usage of git in order to manage different versions of the project, sync up on multiple devices, and keep a
-ledger of changes I made in order to more easily revert them.
-
--The process of deploying my project to AWS using Nginx and setting up daily cronjobs to keep the database updated with new
-content daily.
-
-\subsection{Unpopular Opinions}
-Website built in ASP.NET with a Bootstrap front end for FiiPractic full-stack ASP.NET courses \href{https://github.com/IureaMarius/UnpopularOpinions}{(Link)}
-\subsubsection{Motivation:}
-Nearing the end of these courses we were tasked with putting our newly acquired knowledge to use, we were told
-to build whatever we wanted as long as we used everything we were taught in those 5 weeks. 
-\subsubsection{Summary:}
-Message board website that stores user's posts and comments, it has a reply, up and downvote systems for sorting
-content, authentication with a Google account, and API support. It was one of the three winning projects.
-\subsubsection{Skills Acquired:}
-
--Learning a framework in a relatively short amount of time and putting it to use under a tight deadline.
-
--First-hand experience with the C\# programming language, the only prior experience was a little bit of 
-scripting for a game using Unity.
-
--Creating tables and modeling relations between them in the database using the code first approach in Entity
-Framework in order to create one-to-one, one-to-many, and many-to-many relationships.
-
--Razor template engine to fill out templates on demand to be shown to the user.
-
--Further developed my understanding of the MVC design pattern and routing.
-
--Got more hands-on experience with the different types of HTTP requests and error codes.
-
--Developed an API and used it in order to dynamically send requests and receive JSON files using AJAX and JQuery.
-
--Used Microsoft SQL Server.  
-
--Understood how model binding retrieves data from form fields, query strings and route data, converting string
-data to .NET types.
-
--Authenticating users using their Google account.
-
--Learned how to use LINQ in order to more easily retrieve objects from the database in formats that are easy
-to manipulate.
-
--Used Bootstrap to quickly develop the frontend of the website.
-
--Learned how to use data annotations in order to validate user input and return appropriate error messages.
 
 
 \section{Education}
 \subsection{Currently getting a bachelor's degree at 
-the Faculty of Computer Science Iasi(second year student)}
+the Faculty of Computer Science Iasi(final year student)}
  8.5/10 Grade Average
-
-Got into the university with a 9.85 grade on the admission test.
-
-Throughout high school, I participated in the informatics olympiad and was interested in competitive programming.
-
-At the end of 12th grade participated in Oracle SQL courses.
- 
- \subsubsection{Favourite Courses:} 
- -Computer Architecture and Operating System was my favourite course in the first semester, mostly because I 
- found it to be a lot more difficult than the other subjects. It was something I hadn't worked with before
- and it sparked my interest in how computers work on a lower level.
-
- -Object Oriented Programming was my favourite course in the second semester, because when compared
- with other courses, it really felt useful and I could see how and why I would use what I was learning.
 
 
 \subsection{Winning project in FIIPractic full-stack .Net courses}
