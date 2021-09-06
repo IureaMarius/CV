@@ -87,6 +87,8 @@ Mostly worked on developing an integrated booking engine using Angular, to be em
 
 -added internationalization support
 
+-performed multiple extensions to our UmbracoCMS instance
+
 -optimized the front end rendering of search results by adding virtual scrolling
 
 -found an issue in our content retrieval Umbraco controller that caused a big part of the content stored in Umbraco to be retrieved from the database, instead of the more efficient XML cache. After adding an Lucene search index, and making sure all of the calls tried to hit the cache before going to the database, reduced the load time of an average search that retrieved 200 services from about 90 seconds to less than 8 seconds.
@@ -95,11 +97,11 @@ Mostly worked on developing an integrated booking engine using Angular, to be em
 
 -added automatic image resizing and watermarking of uploaded images to our Umbraco CMS
 
--helped create and run various exports from our client's old system to our CMS
+-helped create and run exports from our client's old system to our CMS
 
--fixed a bug that caused a change in hue of our resized images
+-performed performance profiling and added optimizations to our webservices
 
--had various calls with our client, talking about requirements, managing expectations, and deciding on the final UX.
+-had calls with our client, talking about requirements, managing expectations, and deciding on the final UX.
 
 -in another project, worked on a web scraper that kept the data from our client's platform in sync with ours
 
