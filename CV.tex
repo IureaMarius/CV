@@ -7,6 +7,10 @@
 \usepackage{parskip}
 \usepackage[hidelinks]{hyperref}
 \usepackage{helvet}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{tikzpagenodes}
+\usetikzlibrary{calc} 
 \pagenumbering{gobble}
 \titleformat{\section}
 {\huge\bfseries}
@@ -37,77 +41,116 @@
 {}
 
 \begin{document}
+
+
+
 \title{Curriculum Vitae}
 \author{Iurea Marius}
-\renewcommand{\maketitle} 
-{
-        \begin{center}
+\renewcommand{\maketitle}
+{\begin{center}
         {\huge\bfseries
         \thetitle
 
         \theauthor}
 
-        marius.iurea@yahoo.com --- 0741055112 --- \href{https://www.linkedin.com/in/marius-iurea-49b7021b5/}{LinkedIn}
+        marius.iurea@yahoo.com --- +40741055112 --- \href{https://www.linkedin.com/in/marius-iurea-49b7021b5/}{LinkedIn}
 
         \end{center}
+}
+
+
+\smash{
+    \begin{tikzpicture}[baseline=(ola.center),inner sep=0pt]
+    \clip (0,0)  circle (2cm) node (ola) {\includegraphics[width=4cm]{profilePicture.jpg}};
+    \end{tikzpicture}
 }
 
 \maketitle
 
 \section{Personal Profile}
-Dedicated, self-motivated, and passionate software engineer, looking to fill a position where I can grow and take on new
-challenges. I am a fast learner and able to adapt to different work environments. I am confident that if given the opportunity, I can be a useful part of your software engineering team. \href{https://github.com/IureaMarius/CV}{(Up-to-date CV)}
+Dedicated, passionate, and exceptional software engineer, looking to fill a position where I can grow and take on new and exciting
+challenges. Willing and looking to relocate. I am a fast learner and able to adapt to different work environments. I am confident that if given the opportunity, I will become an indispensable part of your software engineering team. \href{https://github.com/IureaMarius/CV}{(Up-to-date CV)}
 
+\subsection{Date of birth} 09/12/1999
+\subsection{Marital status} Single
+\subsection{Nationality} Romanian
 
-
-\section{Technical Skills}
-\subsection{Languages}
-C\#, JavaScript, C, C++, Python
+\section{Skills}
+\subsection{Programming Languages}
+C\#, JavaScript
 \subsection{Frameworks/Libraries}
-ASP.NET, Node.js, Express.js, JQuery, Django
+ASP.NET, WCF, WF, Angular, Express.js, JQuery 
 \subsection{Tools}
 Git, Unity, Visual Studio, Vim, Nuget, NPM
+\subsection{Languages}
+fluent in English
+
 
 \section{Experience}
 \subsection{IOmundo} 01/10/2020 $\rightarrow$ current
-\subsection{Job Title:} Junior Software Engineer
-\subsubsection{Project Overview:}
-Mostly worked on developing an integrated booking engine using Angular, to be embeded in our client's websites. Worked on fixing issues, adding features, and improving our web services
-\subsubsection{Tech Stack:} C\#, Angular
+\subsection{Job Title:} Software Engineer
+\subsection{Industry:} Tourism
+\subsubsection{Overview:}
+Started out as a full-stack developer, working mostly on an client facing integrated booking engine built using Angular, and enhancing the WCF web services it relied on. Since this project finished, worked mostly on the back-end. Had to regularly talk with clients, and transcribe their end user features into strict specifications. Made my voice heard and had input into decisions about new projects.
+
+\subsubsection{Tech Stack:} .NET, Angular
 \subsubsection{Responsibilities:}
 -learned Angular over the course of 2 weeks while discussing the project requirements
 
--created a bridge to convert our existing XML based API into a JSON based API
+-ended up working on the Angular integrated booking engine and it's associated web services alone with no prior experience using Angular, and took the project from a small set of specifications and wireframes, to a functioning product, under constantly changing requirements, and new features being requested. Genuinely took ownership over this part of our product.
 
--added endpoints to expose our backend Umbraco CMS
+-ensured cross browser compatibility of our integrated booking engine through the use of polyfills
 
--changed the caching to include a new type of 0 availability services
-
--fixed various bugs in our backend
-
--added internationalization support
-
--performed multiple extensions to our UmbracoCMS instance
-
--optimized the front end rendering of search results by adding virtual scrolling
+-created a bridge to convert our existing XML based API into a JSON based API, in order to more easily consume it from our Angular application
 
 -found an issue in our content retrieval Umbraco controller that caused a big part of the content stored in Umbraco to be retrieved from the database, instead of the more efficient XML cache. After adding an Lucene search index, and making sure all of the calls tried to hit the cache before going to the database, reduced the load time of an average search that retrieved 200 services from about 90 seconds to less than 8 seconds.
 
--integrated the DIBSpayment Easy API to our booking engine, in the angular application and in the backend ERP product
+-performed performance profiling and added optimizations to our webservices
+
+-performed speed improvements by implementing asynchronous processing in some of our web services
+
+-performed multiple extensions to our UmbracoCMS instance
+
+-integrated the Concardis as a payment provider to our booking engine, in the angular application and in the backend ERP product
+
+-worked on integrating Adyen as a payment provider in one of our client's systems
 
 -added automatic image resizing and watermarking of uploaded images to our Umbraco CMS
 
--helped create and run exports from our client's old system to our CMS
+-created automated tasks for rerunning our image resizing and watermarking proccess with different parameters on our existing dataset.
 
--performed performance profiling and added optimizations to our webservices
+-helped create and run exports from our client's old system to our CMS
 
 -had calls with our client, talking about requirements, managing expectations, and deciding on the final UX.
 
--in another project, worked on a web scraper that kept the data from our client's platform in sync with ours
+-worked on a web scraper that kept the data from our client's platform in sync with ours
+
+-worked under a Agile Scrum methodology
+
+-worked on our email templating and creation system
+
+-took part in moving our existing source control system from SVN to Git, helped colleagues get familiar with using Git
+
+-wrote integration and unit tests for some of our web services
+
+-worked on changing our insurance business logic to accomodate COVID related changes in the HanseMerkur API
+
+-provided support on a critical failure in our live systems, and developed and delivered a solution in record time
+
+-dealt with the deploying of our client's application on the staging and on the live servers, manually, but also using Jenkins for automation
+
+-found, reproduced, and fixed bugs in multiple projects
+
+-helped collegues with pair programming, and collective code reviews
+
+-took part in discussion deciding architectural choices for our new projects
+
+
 
 
 \subsection{Bitdefender} 01/06/2020 $\rightarrow$ 01/10/2020
 \subsection{Job Title:} Junior Software Engineer
+\subsection{Industry:} Cybersecurity
 \subsection{Department:} Cyber Threat Intelligence Lab
 \subsubsection{Project Overview:}
 The application is an internally used tool that deals with the analysis of logs created by other Bitdefender products: it filters out irrelevant events and gives the user tools to analyze the chain of events that led up to a malware detection event.
@@ -129,13 +172,10 @@ The application is an internally used tool that deals with the analysis of logs 
 
 -implemented automatic detection of log file type and OS
 
-
-
 \section{Education}
 \subsection{Currently getting a bachelor's degree at 
-the Faculty of Computer Science Iasi(final year student)}
- 8.5/10 Grade Average
-
+the Faculty of Computer Science Iasi (final year student)}
+Finishing on the 3rd of July 2022
 
 \subsection{Winning project in FIIPractic full-stack .Net courses}
 
