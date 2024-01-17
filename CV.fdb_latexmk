@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1705513880.01739 "CV.tex" "CV.pdf" "CV" 1705513880.82877 0
+["pdflatex"] 1705514286.37081 "CV.tex" "CV.pdf" "CV" 1705514287.30546 0
   "C:/Users/Marius/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1705512656 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Marius/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1705512548 24142421 43e7c8cfbc4a11071c47613bfa6d13d7 ""
   "C:/Users/Marius/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -136,9 +136,9 @@
   "C:/Users/Marius/AppData/Local/Programs/MiKTeX/tex/latex/titling/titling.sty" 1252048308 7358 95ac619994bd30d405a74f3eca431c84 ""
   "C:/Users/Marius/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Marius/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "CV.aux" 1705513880 4610 a9bd6d7c6430c75d5b9aa6d093b5b81b "pdflatex"
-  "CV.out" 1705513880 4859 f5176b6efb8c3ecca62dda0feb473c3c "pdflatex"
-  "CV.tex" 1705513878 11297 14fa376a128fc057add63f4a3f7de63c ""
+  "CV.aux" 1705514287 4569 de64afcafc18e2ac8d7d2652e02a505a "pdflatex"
+  "CV.out" 1705514287 4630 de38df321c5df2ee6479dbace0700689 "pdflatex"
+  "CV.tex" 1705514286 11237 416d8631969b66eae10838df88b7c18e ""
   "profilePicture.jpg" 1705510527 31196 df04ddb5e2f62a1426f4b0d388592962 ""
   (generated)
   "CV.aux"
