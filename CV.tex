@@ -53,7 +53,7 @@
 
         \theauthor}
 
-        marius.iurea@yahoo.com --- +40741055112 --- \href{https://www.linkedin.com/in/marius-iurea-49b7021b5/}{LinkedIn}
+        marius.iurea@yahoo.com --- +310629602251 --- \href{https://www.linkedin.com/in/marius-iurea-49b7021b5/}{LinkedIn}
 
         \end{center}
 }
@@ -68,7 +68,7 @@
 \maketitle
 
 \section{Personal Profile}
-Dedicated, passionate, and exceptional software engineer, looking to fill a position where I can grow and take on new and exciting
+Dedicated and passionate software engineer, looking to fill a position where I can grow and take on new and exciting
 challenges. Willing and looking to relocate. I am a fast learner and able to adapt to different work environments. I am confident that if given the opportunity, I will become an indispensable part of your software engineering team. \href{https://github.com/IureaMarius/CV}{(Up-to-date CV)}
 
 \subsection{Date of birth} 09/12/1999
@@ -79,15 +79,84 @@ challenges. Willing and looking to relocate. I am a fast learner and able to ada
 \subsection{Programming Languages}
 C\#, JavaScript
 \subsection{Frameworks/Libraries}
-ASP.NET, WCF, WF, Angular, Express.js, JQuery 
+.NET Core, Istio, Prometheus, ASP.NET, WCF, EF, WF, An-
+gular, Express.js, JQuery 
 \subsection{Tools}
-Git, Unity, Visual Studio, Vim, Nuget, NPM
+Kubernetes, Docker, Rancher, OpenLens, Terraform, Microsoft Azure,
+Git, Visual Studio, Vim, Nuget, NPM
 \subsection{Languages}
 fluent in English
 
-
 \section{Experience}
-\subsection{IOmundo} 01/10/2020 $\rightarrow$ current
+\subsection{NICE Netherlands B.V.} 01/08/2022 $\rightarrow$ current
+\subsection{Job Title:} Software Engineer
+\subsection{Industry:} Communication Compliance in the financial sector
+\subsubsection{Overview:}
+Started out working on C\# Azure Functions capturing Microsoft Teams media and text com-
+munications, after a few months was part of the second team to start work on moving our
+product to Cloud Native. After getting familiarized with the basics of Kubernetes and Azure,
+started working on containerizing our microservices that used to run on Windows VMs, in order
+to make them run on AKS clusters.
+
+I’ve recently also been helping the other teams that are beginning to work on Cloud Native by
+writing documentation and helping out individuals who happened to get stuck in the deployment
+and development process.
+
+\subsubsection{Tech Stack:} .NET Core, Kubernetes, Azure, Terraform
+\subsubsection{Responsibilities:}
+
+- helped fix bottlenecks in our Azure functions which caused some of our client’s compliance
+recordings to be ingested later than expected
+
+- got familiarized with the tooling related to Cloud Native development, and with how our
+product leveraged these tools
+
+- worked with our testing and development team to make sure tasks were properly prioritized,
+and the sprint goals were reached in time
+
+- took part in Kubecon 2023 in Amsterdam, where I widened my understanding of different
+aspects of Kubernetes and the tooling surrounding it
+
+- containerized microservices, making sure our product still works with part of the services still
+running on-prem for testing purposes
+
+- when the deadlines made it necessary, picked up testing work in order to meet expected sprint
+goals
+
+- took part in Improvement Days, which were organized as an opportunity to either innovate
+or improve things you would not normally have time for during a normal sprint, with a focus
+on improving the developer experience for Cloud Native development
+
+- on one of these improvement days, I created a well-structured FAQ in order to give the people
+who reach our questions/answers channel one unified place to look for solutions to their issues,
+and looked into tagging and other measures by which I could make these pages show up in
+the search results on Confluence. Also wrote an in-depth contribution guide, encouraging the
+expansion and continued quality of this list
+
+- reviewing PRs from colleagues, and following up on feedback ensuring high code quality
+
+- using tools such as Sonar and Resharper to keep our test coverage and vulnerabilities in check
+
+- helping other teams that are starting to work on Cloud Native with any issues they meet
+while deploying our product or developing Cloud Native related features, by helping individual
+people with their issues but also writing documentation
+
+- performance profiling of our microservices to ensure the requests/limits set are adequate
+
+- work with our technical writer to ensure the auto-generated documentation is accurate and
+concise
+
+- used Rancher to find vulnerabilities in third party packages we are using, and updated the
+base images causing them
+
+- worked with a colleague on a tool to speed up repetitive edits in multiple projects (such as
+changing base images in Dockerfiles), and expanded on it to reuse that code to perform other
+repetitive tasks like automating the containerization of our frontend projects
+
+- by the nature of containerizing microservices that weren’t necessarily owned by our PO, had
+to often communicate and collaborate with people outside my team
+
+\subsection{IOmundo} 01/10/2020 $\rightarrow$ 01/07/2022
 \subsection{Job Title:} Software Engineer
 \subsection{Industry:} Tourism
 \subsubsection{Overview:}
@@ -95,58 +164,71 @@ Started out as a full-stack developer, working mostly on an client facing integr
 
 \subsubsection{Tech Stack:} .NET, Angular
 \subsubsection{Responsibilities:}
+
 -learned Angular over the course of 2 weeks while discussing the project requirements
 
--ended up working on the Angular integrated booking engine and it's associated web services alone with no prior experience using Angular, and took the project from a small set of specifications and wireframes, to a functioning product, under constantly changing requirements, and new features being requested. Genuinely took ownership over this part of our product.
+-ended up working on the Angular integrated booking engine and it’s associated web services
+alone with no prior experience using Angular, and took the project from a small set of specifi-
+cations and wireframes, to a functioning product, under constantly changing requirements, and
+new features being requested. Genuinely took ownership over this part of our product.
 
 -ensured cross browser compatibility of our integrated booking engine through the use of polyfills
 
--created a bridge to convert our existing XML based API into a JSON based API, in order to more easily consume it from our Angular application
+-created a bridge to convert our existing XML based API into a JSON based API, in order to
+more easily consume it from our Angular application
 
--found an issue in our content retrieval Umbraco controller that caused a big part of the content stored in Umbraco to be retrieved from the database, instead of the more efficient XML cache. After adding an Lucene search index, and making sure all of the calls tried to hit the cache before going to the database, reduced the load time of an average search that retrieved 200 services from about 90 seconds to less than 8 seconds.
+-found an issue in our content retrieval Umbraco controller that caused a big part of the content
+stored in Umbraco to be retrieved from the database, instead of the more efficient XML cache.
+After adding an Lucene search index, and making sure all of the calls tried to hit the cache
+before going to the database, reduced the load time of an average search that retrieved 200
+services from about 90 seconds to less than 8 seconds.
 
 -performed performance profiling and added optimizations to our webservices
 
--performed speed improvements by implementing asynchronous processing in some of our web services
+-performed speed improvements by implementing asynchronous processing in some of our web
+services
 
 -performed multiple extensions to our UmbracoCMS instance
 
--integrated the Concardis as a payment provider to our booking engine, in the angular application and in the backend ERP product
+-integrated the Concardis as a payment provider to our booking engine, in the angular applica-
+tion and in the backend ERP product
 
--worked on integrating Adyen as a payment provider in one of our client's systems
+-worked on integrating Adyen as a payment provider in one of our client’s systems
 
 -added automatic image resizing and watermarking of uploaded images to our Umbraco CMS
 
--created automated tasks for rerunning our image resizing and watermarking proccess with different parameters on our existing dataset.
+-created automated tasks for rerunning our image resizing and watermarking proccess with
+different parameters on our existing dataset.
 
--helped create and run exports from our client's old system to our CMS
+-helped create and run exports from our client’s old system to our CMS
 
--had calls with our client, talking about requirements, managing expectations, and deciding on the final UX.
+-had calls with our client, talking about requirements, managing expectations, and deciding on
+the final UX.
 
--worked on a web scraper that kept the data from our client's platform in sync with ours
+-worked on a web scraper that kept the data from our client’s platform in sync with ours
 
 -worked under a Agile Scrum methodology
 
 -worked on our email templating and creation system
 
--took part in moving our existing source control system from SVN to Git, helped colleagues get familiar with using Git
+-took part in moving our existing source control system from SVN to Git, helped colleagues get
+familiar with using Git
 
 -wrote integration and unit tests for some of our web services
 
--worked on changing our insurance business logic to accomodate COVID related changes in the HanseMerkur API
+-worked on changing our insurance business logic to accomodate COVID related changes
 
--provided support on a critical failure in our live systems, and developed and delivered a solution in record time
+-provided support on a critical failure in our live systems, and developed and delivered a solution
+in record time
 
--dealt with the deploying of our client's application on the staging and on the live servers, manually, but also using Jenkins for automation
+-dealt with the deploying of our client’s application on the staging and on the live servers,
+manually, but also using Jenkins for automation
 
 -found, reproduced, and fixed bugs in multiple projects
 
 -helped collegues with pair programming, and collective code reviews
 
 -took part in discussion deciding architectural choices for our new projects
-
-
-
 
 \subsection{Bitdefender} 01/06/2020 $\rightarrow$ 01/10/2020
 \subsection{Job Title:} Junior Software Engineer
